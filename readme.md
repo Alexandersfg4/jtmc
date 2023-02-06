@@ -26,7 +26,7 @@ https https://dummy.restapiexample.com/api/v1/employees
 ```
 - Getting a model
 ```
-https https://dummy.restapiexample.com/api/v1/employees | ./jtms.py        
+https https://dummy.restapiexample.com/api/v1/employees | jtms.py        
 ROOT
 status
 data
@@ -41,7 +41,9 @@ employee_age
 
 ```
 2. Read json from a file and make a model
-```jtms.py -f test.json 
+```
+jtms.py -f test.json 
+
 ROOT
 data
 status
@@ -57,10 +59,10 @@ profile_image
 ```
 ## How to install
 1. Needed python3.8+
-2. Make git clone
+2. Make git clone: https://github.com/Alexandersfg4/jtms
 3. Add the script to your shell config, like:
 ```
-vim vim .zshrc
+vim ~/.zshrc
 # Add path tou the script
 export PATH=/path/to/script:$PATH
 ```
