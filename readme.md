@@ -7,7 +7,8 @@
 ## Examples
 1. Combine httpie/curl with the jtms:
 - Getting usual json:
-```https https://dummy.restapiexample.com/api/v1/employees
+```
+https https://dummy.restapiexample.com/api/v1/employees
 {
     "data": [
         {
@@ -24,7 +25,8 @@
 }
 ```
 - Getting a model
-```https https://dummy.restapiexample.com/api/v1/employees | ./jtms.py        
+```
+https https://dummy.restapiexample.com/api/v1/employees | ./jtms.py        
 ROOT
 status
 data
